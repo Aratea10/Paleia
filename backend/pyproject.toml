@@ -1,0 +1,16 @@
+[project]
+name = "paleia"
+version = "0.1.0"
+description = "A tool for deciphering and transcribing difficult historical handwriting documents."
+readme = "README.md"
+authors = [
+    { name = "Aratea" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.141.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

@@ -17,3 +17,8 @@ npm-debug.log*
 
 # macOS
 .DS_Store
+
+# Python virtual environment
+.venv/
+*.venv/
+
