@@ -12,7 +12,7 @@ npm-debug.log*
 *.local
 
 # VS Code
-.vscode/*
+.vscode
 !.vscode/extensions.json
 
 # macOS
@@ -21,4 +21,3 @@ npm-debug.log*
 # Python virtual environment
 .venv/
 *.venv/
-
