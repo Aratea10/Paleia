@@ -17,7 +17,18 @@ npm-debug.log*
 
 # macOS
 .DS_Store
+.DS_Store?
+._*
 
 # Python virtual environment
 .venv/
 *.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
